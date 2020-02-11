@@ -21,12 +21,12 @@ namespace CapaNegocio
 
             
         }
-        public string MYSQLCn(string servidor, string usuario, string contraseña) // utilizar el string conexion para conectarse a motor y meterle paramtros
-        {
-            string cn = CapaDatos.Conexiones.ConexionMysql(servidor, usuario, contraseña);
+        //public string MYSQLCn(string servidor, string usuario, string contraseña) // utilizar el string conexion para conectarse a motor y meterle paramtros
+        //{
+        //    string cn = CapaDatos.Conexiones.ConexionMysql(servidor, usuario, contraseña);
 
-            return cn;
-        }
+        //    return cn;
+        //}
         public string ORACLECn(string servidor, string usuario, string contraseña) // utilizar el string conexion para conectarse a motor y meterle paramtros
         {
             string cn = CapaDatos.Conexiones.ConexionOracle(servidor, usuario, contraseña);

@@ -7,8 +7,8 @@ using System.Data.Sql;
 using System.Data;
 using System.Data.SqlClient;
 using System.Data.Common;
-using MySql.Data.MySqlClient;
-using MySql.Data.Common;
+//using MySql.Data.MySqlClient;
+//using MySql.Data.Common;
 using System.Data.OracleClient;
 
 namespace CapaDatos
@@ -32,17 +32,17 @@ namespace CapaDatos
 
         }
 
-        public static String ConexionMysql(String servidor, string usuario, string contraseña)
-        {
-            MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
-            builder.Server = servidor;
-            builder.UserID = usuario;
-            builder.Password = contraseña;
-            builder.PersistSecurityInfo = true;
-            builder.Database = "Mysql";
-            var d = builder.ToString();
-            return d;
-        }
+       // public static String ConexionMysql(String servidor, string usuario, string contraseña)
+        //{
+        //    MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
+        //    builder.Server = servidor;
+        //    builder.UserID = usuario;
+        //    builder.Password = contraseña;
+        //    builder.PersistSecurityInfo = true;
+        //    builder.Database = "Mysql";
+        //    var d = builder.ToString();
+        //    return d;
+        //}
 
         
         public static String ConexionOracle(String servidor, string usuario, string contraseña)

@@ -52,13 +52,13 @@ namespace CapaDiseño
             {
                 if (motorMysql == true)
                 {
-                    CapaNegocio.ManejoCN prueba = new CapaNegocio.ManejoCN();
-                    string cn = prueba.MYSQLCn(servidor, usuario, contraseña);
-                    var cnsql = new SqlConnection(cn);
+                    //CapaNegocio.ManejoCN prueba = new CapaNegocio.ManejoCN();
+                    //string cn = prueba.MYSQLCn(servidor, usuario, contraseña);
+                    //var cnsql = new SqlConnection(cn);
 
                     try
                     {
-                        stringCN = cn;
+                        //stringCN = cn;
                         MessageBox.Show("Conexion exitosa! ");
 
                     }
@@ -157,13 +157,13 @@ namespace CapaDiseño
             {
                 if (motorMysql == true)
                 {
-                    CapaNegocio.ManejoCN prueba = new CapaNegocio.ManejoCN();
-                    string cn = prueba.MYSQLCn(servidor, usuario, contraseña);
-                    var cnsql = new SqlConnection(cn);
+                    //CapaNegocio.ManejoCN prueba = new CapaNegocio.ManejoCN();
+                    //string cn = prueba.MYSQLCn(servidor, usuario, contraseña);
+                    //var cnsql = new SqlConnection(cn);
 
                     try
                     {
-                        cnsql.Open();
+                        //cnsql.Open();
                         MessageBox.Show("Conexion exitosa! ");
 
                     }
